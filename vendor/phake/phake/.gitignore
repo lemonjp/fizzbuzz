@@ -1,8 +1,0 @@
-.buildpath
-.project
-.settings
-.idea
-nbproject
-phpunit
-composer.lock
-vendor
