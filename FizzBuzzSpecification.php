@@ -1,5 +1,5 @@
 <?php
-namespace CodeIQ;
+namespace Lucky;
 
 class FizzBuzzSpecification
 {

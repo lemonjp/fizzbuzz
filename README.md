@@ -10,10 +10,21 @@ We distribute a [PHP Archive (PHAR)](http://php.net/phar) that has all required 
     chmod +x phpunit.phar
     mv phpunit.phar /usr/local/bin/phpunit
 
+## Global installation of PHPUnit
+
+```sh
+wget https://phar.phpunit.de/phpunit.phar
+chmod +x phpunit.phar
+sudo mv phpunit.phar /usr/local/bin/phpunit
+phpunit --version
+
+```
+
 ## Tests
 
 Describe and show how to run the tests with code examples.
 
-    phpunit --colors --debug tests/FizzBuzzSpecificationTest
-    phpunit --colors --debug tests/FizzBuzzApplicationTest
-
+```sh
+phpunit --colors --debug tests/FizzBuzzSpecificationTest
+phpunit --colors --debug tests/FizzBuzzApplicationTest
+```

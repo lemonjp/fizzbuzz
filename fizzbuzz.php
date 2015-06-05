@@ -1,5 +1,5 @@
 <?php
-namespace CodeIQ;
+namespace Lucky;
 
 require_once 'FizzBuzzSpecification.php';
 require_once 'FizzBuzzApplication.php';

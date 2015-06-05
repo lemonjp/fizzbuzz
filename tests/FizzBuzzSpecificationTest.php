@@ -1,11 +1,11 @@
 <?php
-namespace CodeIQ\tests;
+namespace Lucky\tests;
 
 //require_once '../FizzBuzzSpecification.php';
 //require_once '/usr/local/test/fizzbuzz/FizzBuzzSpecification.php';
 require_once dirname(__FILE__).'/../FizzBuzzSpecification.php';
 
-use CodeIQ\FizzBuzzSpecification;
+use Lucky\FizzBuzzSpecification;
 
 class FizzBuzzSpecificationTest extends \PHPUnit_Framework_TestCase
 {
